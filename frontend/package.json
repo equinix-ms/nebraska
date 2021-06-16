@@ -65,6 +65,7 @@
     "@types/underscore": "^1.10.24",
     "dotenv-webpack": "^1.7.0",
     "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
@@ -112,7 +113,8 @@
     "extends": [
       "@kinvolk",
       "prettier",
-      "prettier/react"
+      "prettier/react",
+      "plugin:jsx-a11y/recommended"
     ]
   },
   "prettier": "@kinvolk/eslint-config/prettier-config"
